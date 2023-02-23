@@ -1,16 +1,80 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300;400;500;600;700;800&display=swap');
+
 :root {
     --cor1: #1A7FBD;
     --cor2: #A4DCFF;
-    --cor3: #000;
-    --cor4: #FFF;
 
-    font-family: 'Noto Sans', sans-serif;
+    --fonte-padrão: 'Noto Sans', sans-serif;
 }
 
 * {
     margin: 0px;
     padding: 0px;
+    font-family: var(--fonte-padrão);
+}
+
+header {
+    background-color: var(--cor1);
+}
+
+menu {
+    padding: 20px;
+    text-align: center;
+}
+
+menu > img {
+    width: 150px;
+}
+
+menu > a {
+    color: white;
+    text-decoration: none;
+}
+
+a#preto {
+    background-color: black;
+    border-radius: 5px;
+}
+
+header > img {
+    width: 100%;
+}
+
+h1, h2, p {
+    padding: 10px;
+    text-align: justify;
+}
+
+header > h1 {
+    color: var(--cor2);
+}
+
+header > p {
+    color: white;
+}
+
+main {
+    background-color: white;
+}
+
+article {
+    background-color: rgb(243, 243, 243);
+}
+
+article > img {
+    width: 100%;
+}
+
+article > h1 {
+    background-image: linear-gradient(to right, var(--cor1) var(--cor2));
+}
+
+section {
+    background-color: var(--cor1);
+}
+
+footer {
+    background-color: black;
 }
