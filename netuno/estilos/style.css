@@ -68,7 +68,7 @@ article > img {
 }
 
 article > h1 {
-    background-image: linear-gradient(to right, var(--cor1) var(--cor2));
+    background-image: linear-gradient(to right, var(--cor1), var(--cor2));
 }
 
 section {
