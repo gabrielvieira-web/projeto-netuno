@@ -64,17 +64,140 @@ article {
 }
 
 article > img {
-    width: 100%;
+    width: 300px;
 }
 
 article > h1 {
-    background-image: linear-gradient(to right, var(--cor1), var(--cor2));
+    background: linear-gradient(to right, var(--cor1), var(--cor2));
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-size: 2em;
+}
+
+#border2 {
+    border-bottom: 2px solid rgb(207, 207, 207);
+    margin: 0px 10px;
+
+}
+
+article > div > h2 {
+    text-align: center;
+}
+
+.caixa {
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    box-shadow: 2px 11px 17px 2px rgba(0, 0, 0, 0.329);;
+}
+
+aside > h1 {
+    background: linear-gradient(to right, var(--cor1), var(--cor2));
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-size: 2em;
+    text-align: center;
+}
+
+.caixablue {
+    background-color: var(--cor1);
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    display: flex;
+}
+
+#caixablack {
+    background-color: black;
+    color: white;
+    width: 400px;
+    margin: auto;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    box-shadow: 1px 10px 15px 1px rgba(0, 0, 0, 0.26);
+}
+
+aside strong {
+    color: var(--cor1);
+}
+
+aside img#vector {
+    display: block;
+    margin: auto;
+    padding: 10px 0px 80px 0px;
 }
 
 section {
     background-color: var(--cor1);
+    padding-bottom: 80px;
+}
+
+section > h1 {
+    color: white;
+    text-align: center;
+    padding: 40px;
+    font-size: 2em;
+    font-weight: 500;
 }
 
 footer {
     background-color: black;
+    padding: 20px;
 }
+
+footer > img.ico {
+    width: 18px;
+    padding: 10px 10px 0px 0px;
+}
+
+footer #linkwhite {
+    background-color: white;
+    width: 138px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer > #linkwhite > a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer > #linkwhite > a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    color: white;
+    padding: 0px;
+    padding: 10px 0px 20px 0px;
+    font-weight: 200;
+    font-size: 0.7em;
+}
+
+footer > ul > li > a {
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+footer h2 {
+    color: white;
+    padding: 0px;
+    font-weight: normal;
+}
+
+footer > a {
+    color: white;
+    text-decoration: none;
+}
+
