@@ -13,38 +13,51 @@
     margin: 0px;
     padding: 0px;
     font-family: var(--fonte-padrão);
+    box-sizing: border-box;
 }
 
 header {
     background-color: var(--cor1);
 }
 
-menu {
-    padding: 20px;
+#logo {
+    width: 150px;
+    display: block;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+nav {
     text-align: center;
 }
 
-menu > img {
-    width: 150px;
-}
-
-menu > a {
+header > nav > a {
     color: white;
     text-decoration: none;
+    font-size: 1em;
+    padding: 10px;
 }
 
-a#preto {
+#preto {
     background-color: black;
+    padding: 10px;
     border-radius: 5px;
+    display: inline-block;
+    margin-top: 5px;
 }
 
-header > img {
+#banner1 {
     width: 100%;
+}
+
+#banner2 {
+    width: 355px;
 }
 
 h1, h2, p {
     padding: 10px;
     text-align: justify;
+    line-height: 1.6em;
 }
 
 header > h1 {
@@ -53,6 +66,14 @@ header > h1 {
 
 header > p {
     color: white;
+}
+
+#gradientborder {
+    padding: 9px;
+    border-bottom: 2px solid white;
+
+
+    border-image: radial-gradient(circle, white, 49%, transparent 90%) 1;
 }
 
 main {
@@ -96,7 +117,7 @@ article > div > h2 {
     box-shadow: 2px 11px 17px 2px rgba(0, 0, 0, 0.329);;
 }
 
-aside > h1 {
+aside h1 {
     background: linear-gradient(to right, var(--cor1), var(--cor2));
 
     -webkit-background-clip: text;
@@ -106,34 +127,53 @@ aside > h1 {
     text-align: center;
 }
 
-.caixablue {
+div.container {
     background-color: var(--cor1);
-    width: 400px;
-    padding: 10px;
+    width: 295px;
+    border-radius: 10px;
     margin: auto;
     margin-bottom: 5px;
-    border-radius: 8px;
     display: flex;
 }
 
-#caixablack {
-    background-color: black;
+div.containerimg {
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+div.containerimg > img {
+    width: 54px;
+    height: 54px;
+    padding: 10px;
+}
+
+div.containerp {
     color: white;
-    width: 400px;
+    font-size: 0.9em;
+    padding-top: 6px;
+}
+
+div#containerblack {
+    background-color: black;
+    width: 440px;
+    padding: 10px;
+    border-radius: 10px;
     margin: auto;
-    margin-bottom: 5px;
-    border-radius: 8px;
-    box-shadow: 1px 10px 15px 1px rgba(0, 0, 0, 0.26);
+    display: flex;
+}
+
+div#containerblackp {
+    color: white;
+    padding: 0px 3px;
+}
+
+div#containerblackimg {
+    padding: 5px 0px 0px 0px;
 }
 
 aside strong {
     color: var(--cor1);
-}
-
-aside img#vector {
-    display: block;
-    margin: auto;
-    padding: 10px 0px 80px 0px;
 }
 
 section {
@@ -161,7 +201,7 @@ footer > img.ico {
 
 footer #linkwhite {
     background-color: white;
-    width: 138px;
+    width: 160px;
     padding: 10px;
     border-radius: 5px;
 }
@@ -184,20 +224,36 @@ footer p {
     font-size: 0.7em;
 }
 
+footer > ul, li {
+    padding: 10px 0px;
+}
+
 footer > ul > li > a {
     color: white;
     text-decoration: none;
-    font-weight: 300;
+    font-weight: 256;
+}
+
+footer > ul > li > a:hover {
+    text-decoration: underline;
+}
+
+#border3 {
+    border: 1px solid rgb(13, 13, 13);
+    margin-bottom: 10px;
+    width: 227px;
 }
 
 footer h2 {
     color: white;
     padding: 0px;
     font-weight: normal;
+    font-size: 1.3em;
 }
 
-footer > a {
+footer > #contato > li > a {
     color: white;
     text-decoration: none;
 }
 
+img#vector2 {display: none;}
