@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    #logo {
+        display: inline;
+    }
+
+    header > nav > a {
+        
+    }
+
+    #banner2 {
+        width: 500px;
+        height: 500px;
+    }
+
+    #banner2img {
+        margin: auto;
+        margin-bottom: 4.1em;
+    }
+
+    div#container-mediaquery {
+        display: flex;
+        margin: auto;
+    }
+
+    div#container-mediaquery > #h1ep {
+        width: 386px;
+        font-size: 0.9em;
+        margin: auto;
+        margin-bottom: 9em;
+        padding: 0px 15px 0px 0px;
+    }
+
+    div#container2-mediaquery {
+        display: flex;
+    }
+
+    div#container2-img {
+
+    }
+
+    #banner3 {
+        width: 400px;
+        height: 400px;
+    }
+
+    div#container2-h1ep {
+
+    }
+}

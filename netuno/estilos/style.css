@@ -60,11 +60,11 @@ h1, h2, p {
     line-height: 1.6em;
 }
 
-header > h1 {
+header > #container-mediaquery > div > h1 {
     color: var(--cor2);
 }
 
-header > p {
+header > #container-mediaquery > div > p {
     color: white;
 }
 
@@ -88,7 +88,7 @@ article > img {
     width: 300px;
 }
 
-article > h1 {
+article > div#container2-mediaquery h1 {
     background: linear-gradient(to right, var(--cor1), var(--cor2));
 
     -webkit-background-clip: text;
