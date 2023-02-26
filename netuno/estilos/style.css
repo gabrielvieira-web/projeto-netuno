@@ -103,7 +103,7 @@ article > div#container2-mediaquery h1 {
 
 }
 
-article > div > h2 {
+article > #container-caixa > div > h2 {
     text-align: center;
 }
 

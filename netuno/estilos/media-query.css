@@ -33,19 +33,44 @@
     }
 
     div#container2-mediaquery {
+        background-color: blue;
         display: flex;
     }
 
     div#container2-img {
-
+        margin: auto;
     }
 
     #banner3 {
-        width: 400px;
-        height: 400px;
+        width: 500px;
+        height: 700px;
     }
 
     div#container2-h1ep {
+        width: 337px;
+        height: 300px;
+        font-size: 0.9em;
+        margin: auto;
+        padding-bottom: 570px;
+        padding-right: 15px;
+    }
 
+    article {
+        position: relative;
+    }
+
+    article #container-caixa {
+        display: flex;
+        position: absolute;
+
+        top: 90%;
+        left: 50%;
+
+        transform: translate(-50%, -30%);
+        margin: auto;
+    }
+
+    .caixa {
+        margin: 0px 5px;
     }
 }
