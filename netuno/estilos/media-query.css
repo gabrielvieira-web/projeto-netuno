@@ -3,27 +3,35 @@
 @media screen and (min-width: 768px) {
     nav {
         display: flex;
-        justify-content: center;
-    }
-
-    #nav-img > #logo {
-
+        flex-wrap: wrap;
+        max-width: 1100px;
+        margin:0 auto;
+        padding: 0 2%;
     }
 
     nav #nav-img {
-        
+        width: 20%;
     }
 
     #nav-a {
-        margin: 26px 69px 1px 85px;;
+        padding: 25px 0px 0px 20px;
+        width: 50%;
+        text-align: center;
+        margin-left: 25px;
     }
 
-    nav #nav-a > a {
-        padding: 0px 0px;
+    #nav-a > a {
+        margin: 0px 10px;
     }
 
     #nav-preto {
-        padding-top: 24px;
+        padding-top: 25px;
+        margin-left: 95px;
+    }
+
+    #banner1 {
+        position: absolute;
+        wi
     }
 
     #banner2 {
