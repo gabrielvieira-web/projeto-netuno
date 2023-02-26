@@ -56,7 +56,6 @@ header > nav > a {
 
 h1, h2, p {
     padding: 10px;
-    text-align: justify;
     line-height: 1.6em;
 }
 
@@ -203,8 +202,8 @@ footer {
     padding: 20px;
 }
 
-footer > img.ico {
-    width: 18px;
+footer img.ico {
+    width: 30px;
     padding: 10px 10px 0px 0px;
 }
 

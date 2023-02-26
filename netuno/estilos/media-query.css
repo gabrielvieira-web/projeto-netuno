@@ -33,7 +33,6 @@
     }
 
     div#container2-mediaquery {
-        background-color: blue;
         display: flex;
     }
 
@@ -59,18 +58,40 @@
         position: relative;
     }
 
-    article #container-caixa {
+    .container-caixa1 {
         display: flex;
         position: absolute;
+        justify-content: center;
 
         top: 90%;
         left: 50%;
 
         transform: translate(-50%, -30%);
-        margin: auto;
     }
 
     .caixa {
         margin: 0px 5px;
     }
+
+    aside h1 {
+        margin-top: 5em;
+    }
+
+    div#base-container1 {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    .container-caixa2 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2em;
+    }
+
+    footer #container3 {
+        display: flex;
+    }
+
+
 }
