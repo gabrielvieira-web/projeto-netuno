@@ -42,7 +42,10 @@ header > nav > #nav-a > a {
     background-color: black;
     padding: 10px;
     border-radius: 5px;
-    margin-top: 5px;
+}
+
+#nav-preto {
+    padding: 13px 0px 15px 0px;
 }
 
 nav > #nav-preto > #preto {
@@ -73,7 +76,7 @@ header > #container-mediaquery > div > p {
 }
 
 #gradientborder {
-    padding: 9px;
+    padding: 0px;
     border-bottom: 2px solid white;
 
 
@@ -88,8 +91,8 @@ article {
     background-color: rgb(243, 243, 243);
 }
 
-article > img {
-    width: 300px;
+#banner3 {
+    width: 295px;
 }
 
 article > div#container2-mediaquery h1 {
