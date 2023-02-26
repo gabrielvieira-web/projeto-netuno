@@ -1,12 +1,29 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) {
-    #logo {
-        display: inline;
+    nav {
+        display: flex;
+        justify-content: center;
     }
 
-    header > nav > a {
+    #nav-img > #logo {
+
+    }
+
+    nav #nav-img {
         
+    }
+
+    #nav-a {
+        margin: 26px 69px 1px 85px;;
+    }
+
+    nav #nav-a > a {
+        padding: 0px 0px;
+    }
+
+    #nav-preto {
+        padding-top: 24px;
     }
 
     #banner2 {
@@ -89,9 +106,34 @@
         margin-bottom: 2em;
     }
 
-    footer #container3 {
+    #container3 {
         display: flex;
+        justify-content: center;
+        margin: 55px;
     }
 
+    #container3-logos {
+        padding-right: 100px;
+    }
 
+    #linkwhite {
+        background-color: black;
+        height: 43px;
+        padding: 10px;
+    }
+
+    #container3-links1 {
+        padding: 0px 45px;
+        margin-top: -8px;
+    }
+
+    #border4 {
+        border-right: 1px solid rgb(13, 13, 13);
+    }
+
+    #container3-links2 {
+        margin: -9px 1px 0px 49px;
+    }
+
+    #border3 {display: none;}
 }

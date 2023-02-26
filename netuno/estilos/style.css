@@ -31,7 +31,7 @@ nav {
     text-align: center;
 }
 
-header > nav > a {
+header > nav > #nav-a > a {
     color: white;
     text-decoration: none;
     font-size: 1em;
@@ -42,8 +42,13 @@ header > nav > a {
     background-color: black;
     padding: 10px;
     border-radius: 5px;
-    display: inline-block;
     margin-top: 5px;
+}
+
+nav > #nav-preto > #preto {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
 }
 
 #banner1 {
@@ -214,13 +219,13 @@ footer #linkwhite {
     border-radius: 5px;
 }
 
-footer > #linkwhite > a {
+footer > #container3 > #linkwhite > a {
     color: black;
     text-decoration: none;
     font-weight: bold;
 }
 
-footer > #linkwhite > a:hover {
+footer > #container3 >#linkwhite > a:hover {
     text-decoration: underline;
 }
 
@@ -233,21 +238,22 @@ footer p {
 }
 
 footer > ul, li {
-    padding: 10px 0px;
+    padding: 5px 0px;
 }
 
-footer > ul > li > a {
+footer > #container3 > #container3-links1 > ul > li > a {
     color: white;
+    
     text-decoration: none;
-    font-weight: 256;
+    font-weight: 300;
 }
 
-footer > ul > li > a:hover {
+footer > #container3 > #container3-links1 > ul > li > a:hover {
     text-decoration: underline;
 }
 
 #border3 {
-    border: 1px solid rgb(13, 13, 13);
+    border-bottom: 1px solid rgb(13, 13, 13);
     margin-bottom: 10px;
     width: 227px;
 }
@@ -259,9 +265,10 @@ footer h2 {
     font-size: 1.3em;
 }
 
-footer > #contato > li > a {
+footer > #container3 > #container3-links2 > #contato > li > a {
     color: white;
     text-decoration: none;
+    font-weight: 300;
 }
 
 img#vector2 {display: none;}
