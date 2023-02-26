@@ -29,7 +29,14 @@
         margin-left: 95px;
     }
 
-    banner1
+    #banner1 {
+        position: relative;
+        
+        left: 50%;
+        top: 50%;
+
+        transform: translate(-67%, 0%);
+    }
 
     #banner2 {
         width: 500px;
@@ -101,8 +108,28 @@
 
     div#base-container1 {
         display: flex;
-        flex-wrap: nowrap;
-        justify-content: center;
+        flex-wrap: wrap;
+        max-width: 1100px;
+        margin:0 auto;
+        padding: 0 2%;
+    }
+
+    div#containerblack {
+        margin-top: 80px;
+        width: 533px;
+    }
+
+    div#containerblackp {
+        font-size: 1.1em;
+        margin-left: 34px;
+    }
+
+    div#containerblackimg {
+        margin-top: 4px;
+    }
+
+    #imgvector1 {
+        margin-bottom: 85px;
     }
 
     .container-caixa2 {
@@ -141,4 +168,5 @@
     }
 
     #border3 {display: none;}
+    img#vector2 {display: block;}
 }
