@@ -16,8 +16,6 @@
     box-sizing: border-box;
 }
 
-
-
 header {
     background-color: var(--cor1);
 }
@@ -192,6 +190,7 @@ div.cadastro > p > strong {
 }
 
 /* FORMULARIO */
+
 #banner2 {
     width: 355px;
 }
