@@ -1,41 +1,52 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) {
+    
     nav {
         display: flex;
-        flex-wrap: wrap;
-        max-width: 1100px;
-        margin:0 auto;
-        padding: 0 2%;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+    
+        height: 65px;
     }
+    
+    nav ul {
+        display: flex;
+        gap: 40px;
 
-    nav #nav-img {
-        width: 20%;
+        padding: 0 10px;
     }
-
-    #nav-a {
-        padding: 25px 0px 0px 20px;
-        width: 50%;
-        text-align: center;
-        margin-left: 25px;
+    
+    nav img {
+        width: 150px;
     }
+    
+    nav a {
+        color: white;
+        text-decoration: none;
 
-    #nav-a > a {
-        margin: 0px 10px;
+        
     }
+    
+    nav button {
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+        padding: 5px;
 
-    #nav-preto {
-        padding-top: 25px;
-        margin-left: 95px;
+
+        height: 40px;
     }
 
     #banner1 {
         position: relative;
-        
-        left: 50%;
-        top: 50%;
+        left: 0;
+        top: 0;
 
-        transform: translate(-67%, 0%);
+        transform: translateX(-10%)
     }
 
     #banner2 {

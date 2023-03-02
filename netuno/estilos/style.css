@@ -16,70 +16,68 @@
     box-sizing: border-box;
 }
 
-html, body {
-    overflow-x: hidden;
-}
+
 
 header {
     background-color: var(--cor1);
 }
 
-#logo {
-    width: 150px;
-    display: block;
-    margin: auto;
-    padding: 20px 0px;
-}
-
 nav {
-    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 65px;
+    padding: 0 20px;
 }
 
-header > nav > #nav-a > a {
+nav ul {
+    display: flex;
+    gap: 40px;
+}
+
+nav img {
+    width: 25%;
+}
+
+nav a {
     color: white;
     text-decoration: none;
-    font-size: 1em;
-    padding: 10px;
+    font-size: 0.9em;
 }
 
-#preto {
+nav button {
     background-color: black;
-    padding: 10px;
+    color: white;
+    text-decoration: none;
     border-radius: 5px;
 }
 
-#nav-preto {
-    padding: 13px 0px 15px 0px;
-}
-
-nav > #nav-preto > #preto {
-    color: white;
-    text-decoration: none;
-    font-size: 1em;
+.cont-principal {
+    display: flex;
+    align-items: center;
 }
 
 #banner1 {
-    width: 100%;
+    width: 1200px;
 }
 
-header {
-    position: relative;
-}
-
-/* FORMULARIO */
+/* FORMULARIO*/
 
 section#login {
-    position: absolute;
-    top: 40%;
-    left: 73%;
-
+    display: flex;
     background-color: white;
-    width: 400px;
+    width: 600px;
     height: 700px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.466);
+    
+    transform: translateX(-75%);
+}
 
-    transform: translate(-50%, -72%);
+form {
+    width: 400px;
 }
 
 form > div.cadastro > h1 {
@@ -99,8 +97,6 @@ div.cadastro > input {
     margin-bottom: 8px;
     border-radius: 5px;
     border: 1px solid rgb(116, 116, 116);;
-
-    transform: translateX(25px)
 }
 
 div.cadastro > input#enviar {
@@ -114,8 +110,6 @@ div.cadastro > select {
     padding: 10px 0px 10px 50px;
     margin-bottom: 30px;
     border-radius: 5px;
-
-    transform: translateX(25px)
 }
 
 div.cadastro > label {
@@ -124,11 +118,6 @@ div.cadastro > label {
 
 div.cadastro > img.ico {
     width: 21px;
-    transform: translate(24px, 5px);
-}
-
-form > div.cadastro > input {
-    width: ;
 }
 
 div.conhecimento {
@@ -186,7 +175,6 @@ div.cadastro > div#enviar > input[type="submit"] {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transform: translateX(50px)
 }
 
 div.cadastro > div#enviar > input[type="submit"]:hover {
@@ -202,16 +190,6 @@ div.cadastro > p {
 div.cadastro > p > strong {
     color: var(--cor1);
 }
-
-
-
-
-
-
-
-
-
-
 
 /* FORMULARIO */
 #banner2 {

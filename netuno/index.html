@@ -11,106 +11,103 @@
 <body>
     <header>
         <nav>
-            <div id="nav-img">
-                <img id="logo" src="assets/logo.png" alt="logo netuno">
-            </div>
-            <div id="nav-a">
+            <img id="logo" src="assets/logo.png" alt="logo netuno">
+
+            <ul>
                 <a href="#">O Projeto</a>
                 <a href="#">O Problema</a>
                 <a href="#">Sua Jornada</a>
                 <a href="#">Objetivos</a>
-            </div>   
-            <div id="nav-preto">
-                <a id="preto" href="#">Processo Seletivo</a>
-            </div>
+            </ul>
+               
+            <button type="button">Processo Seletivo</button>
         </nav>
         <div id="gradientborder">
 
         </div>
-        <picture>
-            <source media="(max-width: 768px)" srcset="imagens/bannertopo-pq.png">
-            <img id="banner1" src="imagens/bannertopo.png" alt="banner"> 
-        </picture>
-        <section id="login">
-            <form action="login.php" method="post" autocomplete="on">
-                <div class="cadastro">
-                    <h1>Formulario de Cadastro</h1>
-                    <h2>Preencha seus dados</h2>
-                        <img class="ico" src="icones/user.png" alt="icone">
-                    <label for="inome">nome</label>
-                    <input type="text" name="nome" id="inome" placeholder="Nome completo" autocomplete="name" minlength="5" maxlength="40">
+        <section class="cont-principal">
+            <picture>
+                <source media="(max-width: 768px)" srcset="imagens/bannertopo-pq.png">
+                <img id="banner1" src="imagens/bannertopo.png" alt="banner">
+            </picture>
+            <section id="login">
+                <form action="login.php" method="post" autocomplete="on">
                     <div class="cadastro">
-                        <img class="ico" src="icones/mail.png" alt="icone">
-                        <label for="iemail">E-mail</label>
-                        <input type="email" name="email" id="iemail" placeholder="E-mail" autocomplete="email">
+                        <h1>Formulario de Cadastro</h1>
+                        <h2>Preencha seus dados</h2>
+                            <img class="ico" src="icones/user.png" alt="icone">
+                        <label for="inome">nome</label>
+                        <input type="text" name="nome" id="inome" placeholder="Nome completo" autocomplete="name" minlength="5" maxlength="40">
+                        <div class="cadastro">
+                            <img class="ico" src="icones/mail.png" alt="icone">
+                            <label for="iemail">E-mail</label>
+                            <input type="email" name="email" id="iemail" placeholder="E-mail" autocomplete="email">
+                        </div>
+                        <div class="cadastro">
+                                <img class="ico" src="icones/state.png" alt="icone">
+                                <select name="estado" id="iest" placeholder="Estado">
+                                    <option value="" selected>Estado</option>
+                                    <option value="">Acre</option>
+                                    <option value="">Alagoas</option>
+                                    <option value="">Amapá</option>
+                                    <option value="">Amazonas</option>
+                                    <option value="">Bahia</option>
+                                    <option value="">Ceará</option>
+                                    <option value="">Espírito Santo	</option>
+                                    <option value="">Goiás</option>
+                                    <option value="">Maranhão</option>
+                                    <option value="">Mato Grosso</option>
+                                    <option value="">Mato Grosso do Sul</option>
+                                    <option value="">Minas Gerais</option>
+                                    <option value="">Pará</option>
+                                    <option value="">Paraíba	PB</option>
+                                    <option value="">Paraná</option>
+                                    <option value="">Pernambuco</option>
+                                    <option value="">Piauí</option>
+                                    <option value="">Rio de Janeiro</option>
+                                    <option value="">Rio Grande do Nort</option>
+                                    <option value="">Rio Grande do Sul</option>
+                                    <option value="">Rondônia</option>
+                                    <option value="">Roraima</option>
+                                    <option value="">Santa Catarina</option>
+                                    <option value="">São Paulo</option>
+                                    <option value="">Sergipe</option>
+                                    <option value="">Tocantins</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="conhecimento">
+                        <h2>Conhecimento de Programação*</h2>
+                        <div class="checkbox"><input type="checkbox" name="HTML" id="iHTML" checked> <label for="iHTML">HTML</label></div>
+                        <div class="checkbox"><input type="checkbox" name="CSS" id="iCSS"> <label for="iCSS">CSS</label></div>
+                        <div class="checkbox"><input type="checkbox" name="Javascript" id="iJavascript" checked> <label for="iJavascript">Javascript</label></div>
+                        <div class="checkbox"><input type="checkbox" name="PHP" id="iPHP"> <label for="iPHP">PHP</label></div>
+                        <div class="checkbox"><input type="checkbox" name=".NET" id="i.NET"> <label for="i.NET">.NET</label></div>
+                        <div class="checkbox"><input type="checkbox" name="Vue.JS" id="iVue.JS"> <label for="iVue.JS">Vue.JS</label></div>
+                        <div class="checkbox"><input type="checkbox" name="ReactJS" id="iReactJS"> <label for="iReactJS">ReactJS</label></div>
+                        <div class="checkbox"><input type="checkbox" name="React Native" id="iReact Native" checked> <label for="iReact Native">React Native</label></div>
+                        <div class="checkbox"><input type="checkbox" name="Node" id="iNode"> <label for="iNode">Node</label></div>
+                        <div class="checkbox"><input type="checkbox" name="Python" id="iPython"> <label for="iPython">Python</label></div>
+                        <div class="checkbox"><input type="checkbox" name="Flutter" id="iFlutter" checked> <label for="iFlutter">Flutter</label></div>
+                        <div class="checkbox"><input type="checkbox" name="Outras" id="iOutras" checked> <label for="iOutras">Outras</label></div>
                     </div>
                     <div class="cadastro">
-                            <img class="ico" src="icones/state.png" alt="icone">
-                            <select name="estado" id="iest" placeholder="Estado">
-                                <option value="" selected>Estado</option>
-                                <option value="">Acre</option>
-                                <option value="">Alagoas</option>
-                                <option value="">Amapá</option>
-                                <option value="">Amazonas</option>
-                                <option value="">Bahia</option>
-                                <option value="">Ceará</option>
-                                <option value="">Espírito Santo	</option>
-                                <option value="">Goiás</option>
-                                <option value="">Maranhão</option>
-                                <option value="">Mato Grosso</option>
-                                <option value="">Mato Grosso do Sul</option>
-                                <option value="">Minas Gerais</option>
-                                <option value="">Pará</option>
-                                <option value="">Paraíba	PB</option>
-                                <option value="">Paraná</option>
-                                <option value="">Pernambuco</option>
-                                <option value="">Piauí</option>
-                                <option value="">Rio de Janeiro</option>
-                                <option value="">Rio Grande do Nort</option>
-                                <option value="">Rio Grande do Sul</option>
-                                <option value="">Rondônia</option>
-                                <option value="">Roraima</option>
-                                <option value="">Santa Catarina</option>
-                                <option value="">São Paulo</option>
-                                <option value="">Sergipe</option>
-                                <option value="">Tocantins</option>
-                        </select>
+                        <h2>Já trabalhou com desenvolvimento?</h2>
+                        <div id="radio">
+                            <input type="radio" name="dev" id="idevn"><label for="idevn">Não</label>
+                            <input type="radio" name="dev" id="idevs"><label for="idevs">Sim</label>
+                        </div>
+                        <div id="border">
+                            <!--AQUI VAI A BORDA-->
+                        </div>
+                        <P id="pazul">(*) Campos obrigatórios</P>
+                        <div id="enviar">
+                            <input type="submit" value="Enviar">
+                        </div>
+                        <p>Ao clicar em enviar, você concorda com todos os termos de uso de dados descritos em <strong>polica de privacidade</strong></p>
                     </div>
-                </div>
-                <div class="conhecimento">
-                    <h2>Conhecimento de Programação*</h2>
-                    <div class="checkbox"><input type="checkbox" name="HTML" id="iHTML" checked> <label for="iHTML">HTML</label></div>
-                    <div class="checkbox"><input type="checkbox" name="CSS" id="iCSS"> <label for="iCSS">CSS</label></div>
-                    <div class="checkbox"><input type="checkbox" name="Javascript" id="iJavascript" checked> <label for="iJavascript">Javascript</label></div>
-                    <div class="checkbox"><input type="checkbox" name="PHP" id="iPHP"> <label for="iPHP">PHP</label></div>
-                    <div class="checkbox"><input type="checkbox" name=".NET" id="i.NET"> <label for="i.NET">.NET</label></div>
-                    <div class="checkbox"><input type="checkbox" name="Vue.JS" id="iVue.JS"> <label for="iVue.JS">Vue.JS</label></div>
-                    <div class="checkbox"><input type="checkbox" name="ReactJS" id="iReactJS"> <label for="iReactJS">ReactJS</label></div>
-                    <div class="checkbox"><input type="checkbox" name="React Native" id="iReact Native" checked> <label for="iReact Native">React Native</label></div>
-                    <div class="checkbox"><input type="checkbox" name="Node" id="iNode"> <label for="iNode">Node</label></div>
-                    <div class="checkbox"><input type="checkbox" name="Python" id="iPython"> <label for="iPython">Python</label></div>
-                    <div class="checkbox"><input type="checkbox" name="Flutter" id="iFlutter" checked> <label for="iFlutter">Flutter</label></div>
-                    <div class="checkbox"><input type="checkbox" name="Outras" id="iOutras" checked> <label for="iOutras">Outras</label></div>
-                </div>
-                <div class="cadastro">
-                    <h2>Já trabalhou com desenvolvimento?</h2>
-                    <div id="radio">
-                        <input type="radio" name="dev" id="idevn"><label for="idevn">Não</label>
-                        <input type="radio" name="dev" id="idevs"><label for="idevs">Sim</label>
-                    </div>
-
-                    <div id="border">
-                        <!--AQUI VAI A BORDA-->
-                    </div>
-
-                    <P id="pazul">(*) Campos obrigatórios</P>
-
-                    <div id="enviar">
-                        <input type="submit" value="Enviar">
-                    </div>
-                    <p>Ao clicar em enviar, você concorda com todos os termos de uso de dados descritos em <strong>polica de privacidade</strong></p>
-                </div>
-            </form>
+                </form>
+            </section>
         </section>
         <div id="container-mediaquery">
             <div id="banner2img">
